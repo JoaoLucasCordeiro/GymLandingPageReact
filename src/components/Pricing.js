@@ -1,24 +1,32 @@
 import React from 'react';
-import { pricing } from '../data'
-import PlanLIst from './PlanList'
+
+// import data
+import { pricing } from '../data';
+
+// import components
+import PlanList from './PlanList';
 
 const Pricing = () => {
-  const { icon, title, plans } = pricing
+  // destructure pricing
+  const { icon, title, plans } = pricing;
   return (
-    <section>
-
-      <div className='section-title-group max-w-[540px] mx-auto px-4 lg:px-6'>
-        <img src={icon} alt="ícone" />
-        <h2 className='h2'>
+    <section className='section'>
+      {/* section title */}
+      <div
+        className='section-title-group max-w-[540px] mx-auto px-4 lg:px-0'
+        data-aos='fade-up'
+        data-aos-offset='200'
+        data-aos-delay='200'
+      >
+        <img src={icon} alt='' />
+        <h2 className='h2 section-title'>
           {title} <span className='text-primary-200'>.</span>
         </h2>
       </div>
-
-      <PlanLIst plans={plans}/>
-
-
+      {/* plan list */}
+      <PlanList plans={plans} />
     </section>
-  )
+  );
 };
 
 export default Pricing;
