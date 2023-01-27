@@ -8,3 +8,6 @@ Landing page desenvolvida em React e algumas outras bibliotecas JavaScript, cont
 - Tailwind css
 - Aos - para efeitos da páginas
 
+![Captura de tela de 2023-01-27 11-38-19](https://user-images.githubusercontent.com/89361241/215112822-140565f9-215e-4f45-8050-d54bae39d139.png)
+
+### Versão mobile
