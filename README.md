@@ -1,1 +1,1 @@
-# gymme-landing-starter
+# GymMe, landing page desenvolvida em React
