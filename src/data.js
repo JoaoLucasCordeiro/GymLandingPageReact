@@ -21,49 +21,52 @@ import QuestionMarkIcn from '../src/assets/img/faq/icons/question-mark.svg';
 
 export const header = {
   logo: Logo,
-  btnLoginText: 'Log in',
-  btnSignupText: 'Sign Up',
+  btnLoginText: 'Entrar',
+  btnSignupText: 'Cadastre-se',
 };
 
+
+
 export const nav = [
-  { name: 'Home', href: '/' },
-  { name: 'About', href: '/' },
-  { name: 'Workouts', href: '/' },
-  { name: 'Pricing', href: '/' },
-  { name: 'Community', href: '/' },
-  { name: 'FAQ', href: '/' },
+  { name: 'Início', href: '/' },
+  { name: 'Sobre', href: '/' },
+  { name: 'Treinos', href: '/' },
+  { name: 'Preços', href: '/' },
+  { name: 'Comunidade', href: '/' },
+  { name: 'Perguntas frequentes', href: '/' },
 ];
 
 export const banner = {
-  titlePart1: 'Get the best part of your day',
-  titlePart2: '– you fit here.',
+  titlePart1: 'Aproveite a melhor parte do seu dia',
+  titlePart2: '– venha para melhor academia.',
   subtitle:
-    'We provide serious fitness but within a fun and friendly, safe space.',
-  textBtn: 'Join Now',
+    'Oferecemos um treinamento sério, mas dentro de um espaço divertido, amigável e seguro.',
+  textBtn: 'Junte-se Agora',
   img: '',
 };
 
+
 export const about = {
   icon: UsersIcn,
-  title: 'Our misson',
+  title: 'Nossa missão',
   subtitle1:
-    'We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.',
+    'Somos diferenciados pela nossa atmosfera motivadora incomparável, equipe qualificada e equipamentos de exercício de primeira linha, que apoiam nossos membros a alcançar seus objetivos individuais de condicionamento físico.',
   subtitle2:
-    'The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.',
-  link: 'Join Now',
+    'A força de nossa identidade sincera é utilizada para inspirar cada pessoa que pisa em nossas academias a melhorar a si mesmos.',
+  link: 'Junte-se Agora',
 };
 
 export const workouts = {
   icon: CalendarIcn,
-  title: 'Training programs',
+  title: 'Programas de Treinamento',
   programs: [
     {
       image: ResistanceImg,
-      name: 'Resistance',
+      name: 'Treinamento com Resistência',
     },
     {
       image: BoxingImg,
-      name: 'Boxing',
+      name: 'Boxe',
     },
     {
       image: BodyPumpImg,
@@ -75,30 +78,30 @@ export const workouts = {
     },
     {
       image: FullBodyImg,
-      name: 'Full Body',
+      name: 'Treino de Corpo Inteiro',
     },
     {
       image: FitnessImg,
-      name: 'Fitness',
+      name: 'Condicionamento Físico',
     },
     {
       image: BattleRopeImg,
-      name: 'Battle Rope',
+      name: 'Treino com Corda de Batalha',
     },
   ],
 };
 
 export const pricing = {
   icon: PriceIcn,
-  title: 'Pricing plan',
+  title: 'Planos de Preços',
   plans: [
     {
-      name: 'Basic',
+      name: 'Básico',
       price: '20',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '1 training programs' },
-        { name: 'free fitness consultation' },
+        { name: 'Acesso ilimitado à academia' },
+        { name: '1 programa de treinamento' },
+        { name: 'Consulta gratuita de condicionamento físico' },
       ],
       delay: 600,
     },
@@ -106,10 +109,10 @@ export const pricing = {
       name: 'Premium',
       price: '35',
       list: [
-        { name: 'unlimited gym access' },
-        { name: '5 training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
+        { name: 'Acesso ilimitado à academia' },
+        { name: '5 programas de treinamento' },
+        { name: 'Consulta gratuita de condicionamento físico' },
+        { name: 'Treinador pessoal' },
       ],
       delay: 800,
     },
@@ -117,94 +120,96 @@ export const pricing = {
       name: 'Elite',
       price: '49',
       list: [
-        { name: 'unlimited gym access' },
-        { name: 'all training programs' },
-        { name: 'free fitness consultation' },
-        { name: 'personal trainer' },
-        { name: '50% off drinks' },
+        { name: 'Acesso ilimitado à academia' },
+        { name: 'Todos os programas de treinamento' },
+        { name: 'Consulta gratuita de condicionamento físico' },
+        { name: 'Treinador pessoal' },
+        { name: '50% de desconto em bebidas' },
       ],
       delay: 1000,
     },
   ],
 };
 
+
 export const community = {
   icon: CommunityIcn,
-  title: 'Community',
+  title: 'Comunidade',
   testimonials: [
     {
       image: CommunityImg1,
       name: 'Mark A.',
       message:
-        '“Great location, great price and great, helpful people. What to want more?”',
+        '“Ótima localização, ótimo preço e pessoas excelentes e prestativas. O que mais você poderia querer?”',
     },
     {
       image: CommunityImg2,
       name: 'Lauren K.',
       message:
-        '“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”',
+        '“A Gymme mudou minha vida. Não apenas fisicamente, mas mentalmente também. Sou uma mãe melhor e uma pessoa melhor em todos os aspectos por causa dessa academia.”',
     },
     {
       image: CommunityImg3,
       name: 'Jhon D.',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Adoro esses treinos! Os treinadores são experientes e motivadores. A Gymme é maravilhosa!”',
     },
     {
       image: CommunityImg4,
       name: 'Anne R.',
       message:
-        '“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”',
+        '“Adoro esses treinos! Os treinadores são experientes e motivadores. A Gymme é maravilhosa!”',
     },
   ],
 };
 
 export const faq = {
   icon: QuestionMarkIcn,
-  title: 'FAQ',
+  title: 'Perguntas Frequentes',
   accordions: [
     {
-      question: 'How can I book a workout class?',
+      question: 'Como posso agendar uma aula de treinamento?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'Can I pay by cash for my membership?',
+      question: 'Posso pagar em dinheiro pela minha adesão?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'What age do I need to be to join?',
+      question: 'Qual idade é necessária para participar?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'Are there any lockers?',
+      question: 'Existem armários disponíveis?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'How do I cancel my membership?',
+      question: 'Como faço para cancelar minha adesão?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
     {
-      question: 'Is there water available at the gym?',
+      question: 'Há água disponível na academia?',
       answer:
         'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae temporibus beatae, totam repudiandae nam recusandae ea dolores tempora maxime.',
     },
   ],
 };
 
+
 export const join = {
   image: JoinImg,
-  title: 'Wanna join & have fun?',
+  title: 'Quer participar e se divertir?',
   subtitle:
-    'We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.',
-  btnText: 'Join now',
+    'Vamos mantê-lo atualizado sobre as coisas que você precisa saber sobre a Gymme. Nada mais, nada menos.',
+  btnText: 'Junte-se agora',
 };
 
 export const footer = {
   logo: Logo,
-  copyrightText: 'All rights reserved. Gymme 2022.',
+  copyrightText: 'Todos os direitos reservados. Gymme 2022.',
 };

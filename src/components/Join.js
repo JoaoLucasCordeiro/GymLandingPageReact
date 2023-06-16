@@ -24,9 +24,9 @@ const Join = () => {
             data-aos-offset='100'
             data-aos-delay='200'>
             <h2 className='h1 text-white md:text-[60px] md:leading-[62px] mb-4 lg:mb-6'>
-              Want join
+              Quer se juntar
               <span className='text-primary-200'>&</span>
-              have fun?
+              se divertir?
             </h2>
             <p className='text-body-sm text-white md:text-body-md mb-4 lg:mb-6 max-w-[348px] md:max-w-[470px] lg:max-w-[492px]'>{subtitle}</p>
             <button className='btn btn-secondary btn-lg'>{btnText}</button>
